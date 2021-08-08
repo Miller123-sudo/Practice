@@ -27,7 +27,10 @@ SECRET_KEY = 'django-insecure-%g-%or+_zxr%1*y^)b477o(zxa1hqv)t00w&65094$i0rxm-b_
 DEBUG = True
 
 ALLOWED_HOSTS = [
-    'django-tubers-env.eba-hgfv8n7f.us-west-2.elasticbeanstalk.com']
+
+    '*'
+
+]
 
 LOGIN_REDIRECT_URL = 'dashboard'
 
